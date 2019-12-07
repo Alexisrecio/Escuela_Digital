@@ -1,0 +1,62 @@
+header {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+.ed-menu a {
+  text-transform: uppercase;
+}
+
+.ed-menu li {
+  margin-left: 2px;
+}
+
+.ed-menu a:hover,
+.ed-menu a.selected {
+  background: steelblue;
+  color: #fff;
+}
+
+#banner img {
+  border: 1px solid #999;
+  padding: 3px;
+}
+
+aside h2 {
+  font-size: 1.2em;
+}
+
+footer {
+  background: #222;
+  text-align: center;
+  font-size: .9em;
+  color: #eee;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  margin-top: 4em;
+}
+
+.contacto {
+  width: 80%;
+  margin: 2em auto;
+}
+
+.contacto .ed-item {
+  margin-bottom: 1em;
+}
+
+.contacto input,
+.contacto textarea {
+  width: 100%;
+}
+
+.enviar {
+  display: table;
+  width: auto !important;
+  background: steelblue;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 2.5;
+  padding: 0 1em;
+  border: none;
+}
